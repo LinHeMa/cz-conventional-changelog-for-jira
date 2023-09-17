@@ -5,7 +5,8 @@ Part of the [commitizen/cz-cli](https://github.com/commitizen/cz-cli) family. Pr
 [![npm version](https://img.shields.io/npm/v/@digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](https://www.npmjs.org/package/@digitalroute/cz-conventional-changelog-for-jira)
 
 ## Most Important
-Thanks for [DigitalRoute](https://github.com/digitalroute) for providing greatness.
+- Thanks for [DigitalRoute](https://github.com/digitalroute) for providing greatness.
+- This is still a practice package
 ## Features
 
 - Works seamlessly with semantic-release 🚀
@@ -73,6 +74,12 @@ pre-type:
 
 ```text
 JIRA-1234 type(scope): commit subject
+```
+
+goer:
+
+```text
+JIRA-1234 commit subject
 ```
 
 pre-description:

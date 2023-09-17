@@ -1,6 +1,6 @@
 {
   "name": "@linhema/cz-conventional-changelog-for-jira",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.1",
   "description": "fork from cz-conventional-changelog-for-jira, and add change for my own use.",
   "main": "index.js",
   "scripts": {
