@@ -46,6 +46,9 @@ module.exports = function(options) {
       case 'pre-type':
         return jiraWithDecorators + headerPrefix + subject;
         break;
+      case 'goer':
+        return jiraWithDecorators + subject;
+        break;
       case 'pre-description':
         return headerPrefix + jiraWithDecorators + subject;
         break;
