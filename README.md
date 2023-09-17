@@ -3,9 +3,9 @@
 Part of the [commitizen/cz-cli](https://github.com/commitizen/cz-cli) family. Prompts for [conventional changelog](https://github.com/conventional-changelog/conventional-changelog) standard and also prompts for a mandatory JIRA issue.
 
 [![npm version](https://img.shields.io/npm/v/@digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](https://www.npmjs.org/package/@digitalroute/cz-conventional-changelog-for-jira)
-[![npm downloads](https://img.shields.io/npm/dm/@digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@digitalroute/cz-conventional-changelog-for-jira)
-[![Build Status](https://img.shields.io/travis/digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](https://travis-ci.org/digitalroute/cz-conventional-changelog-for-jira)
 
+## Most Important
+Thanks for [DigitalRoute](https://github.com/digitalroute) for providing greatness.
 ## Features
 
 - Works seamlessly with semantic-release 🚀
@@ -17,7 +17,7 @@ Part of the [commitizen/cz-cli](https://github.com/commitizen/cz-cli) family. Pr
 ### Installation
 
 ```bash
-npm install commitizen @digitalroute/cz-conventional-changelog-for-jira
+npm install commitizen @linhema/cz-conventional-changelog-for-jira
 ```
 
 and then add the following to package.json:
@@ -29,7 +29,7 @@ and then add the following to package.json:
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+      "path": "./node_modules/@linhema/cz-conventional-changelog-for-jira"
     }
   }
 }
@@ -110,9 +110,9 @@ Here is an example:
 **./index.js**
 
 ```javascript
-const custom = require('@digitalroute/cz-conventional-changelog-for-jira/configurable');
+const custom = require('@linhema/cz-conventional-changelog-for-jira/configurable');
 // You can do this optionally if you want to extend the commit types
-const defaultTypes = require('@digitalroute/cz-conventional-changelog-for-jira/types');
+const defaultTypes = require('@linhema/cz-conventional-changelog-for-jira/types');
 
 module.exports = custom({
   types: {
